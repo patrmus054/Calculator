@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    float: center;
+}
+.container{
+    display:flex;
+    background-color:#333;
+    height: 724px;
+    width: 514px;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+    font-size: 2em;
+}
+
+.button{
+    background-color: #888;
+    flex-grow: 1; 
+    width: 25%;
+    border: #333 solid 1px;
+    font-size: 24px;
+}
+
+.button-zero{
+    flex-grow: 3;
+    width: 75%;
+}
+
+.button-clear{
+    flex-grow: 2;
+    width: 50%;
+}
+
+.equation{
+    
+    width: 100%;
+    color: white;
+    text-align: end;
+    margin: 0;
+}
+
+.math-symbol{
+    background-color: tomato;
+}
